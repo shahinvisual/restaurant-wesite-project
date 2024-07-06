@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+ .btn_c{
+    text-align: center;
+ }
+ .btn{
+    padding: 18px 18px;
+    background: #378f37;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    }
+#hero{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url("/assets/pexels-cottonbro-4828170.jpg");
+    height: 422px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero_content{
+    width: 470px;
+}
+#hero .hero_content .subtitle{
+    color: white;
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+#hero .hero_content .title{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 350;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 18px;
+}
+#hero .hero_content .subtitle2 {
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 9px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 25px;
+}
+#card_box{
+    width: 660px;
+    margin: 100px auto;
+}
+#card_box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card_box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card_container{
+    margin-top: 26px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    font-family: work sans;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image_box{
+    width: 250px;
+    
+}
+.card .image_box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card .fish{
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
